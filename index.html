@@ -9,32 +9,80 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="mastercontainer-1">
-        <div class="headercontainer">
-            <div class="content-box"> 
-                <div class="headerlogo-box">Header Logo</div>
-                <div class="menu-box">
-                    <div class="header-item">header link one</div>
-                    <div class="header-item">header link one</div>
-                    <div class="header-item">header link one</div>
-                </div>
-            </div>
-        </div>
-        <div class="contentcontainer">
-            <div class="content-box"> 
-                <div class="herocontent-box">
-                    <div class="heromaintext">This website is awesome</div>
-                    <div class="herosecondarytext">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast.</div>
-                    <div class="button-box">
-                        <div class="button-text">Sign Up</div>
+    
+    <div class="mastercontainer"> <!-- Flex Container for the entire page -->
+        <div class="sectioncontainer-1"> <!-- Flex Container for the first section -->
+            <div class="headercontainer"> <!-- Flex Container for the Header -->
+                <div class="content-box"> <!-- Flex Container to position Logo and Menu links -->
+                    <div class="headerlogo-box">Header Logo</div>
+                    <div class="menu-box">
+                        <div class="header-item">header link one</div>
+                        <div class="header-item">header link one</div>
+                        <div class="header-item">header link one</div>
                     </div>
                 </div>
-                <div class="item"><img src="images/pancakes.jpg" alt="pancakes.jpg" height="250" width="500"></div> 
-            </div> 
+            </div>
+            <div class="contentcontainer"> <!-- Flex Container for the content section -->
+                <div class="content-box"> <!-- Flex Container to position Text and Image -->
+                    <div class="herocontent-box"> <!-- Flex Container to position Title and Subtext -->
+                        <div class="heromaintext">This website is awesome</div>
+                        <div class="herosecondarytext">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast.</div>
+                        <div class="button-box"> <!-- Flex Container to position button -->
+                            <div class="button-text">Sign Up</div> <!-- Class for button styling -->
+                        </div>
+                    </div>
+                    <div class="item"><img src="images/pancakes.jpg" alt="pancakes.jpg" height="250" width="500"></div> <!-- Flex contianer and link to position image -->
+                </div> 
+            </div>
+        </div>        
+        <div class="sectioncontainer-2"> <!-- Flex Container for the second section -->
+            <div class="headercontainer-2"> <!-- Flex Container for title  -->
+                <div class="infoheadertext"> Some random information.</div> 
+            </div>
+            <div class="contentcontainer-2"> <!-- Flex Container for the image placeholders subtext-->
+                <div class="image-text-container"> <!-- Flex Container for individual image placeholders subtext-->
+                    <div class="gridbox"></div>
+                    <div class="gridtext">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="image-text-container"> <!-- Flex Container for individual image placeholders subtext-->
+                    <div class="gridbox"></div>
+                    <div class="gridtext">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="image-text-container"> <!-- Flex Container for individual image placeholders subtext-->
+                    <div class="gridbox"></div>
+                    <div class="gridtext">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="image-text-container"> <!-- Flex Container for individual image placeholders subtext-->
+                    <div class="gridbox"></div>
+                    <div class="gridtext">this is some subtext under an illustration or image</div>
+                </div>
+            </div>
+        </div>        
+        <div class="sectioncontainer-3"> <!-- Flex Container for the third section -->
+            <div class="contentcontainer-3"> <!-- Flex Container for quote and quote author-->
+                <div class="quotetext">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people wll actually read it. Who knows? All I know is that it looks nice.</div>
+                <div class="quoteauthor">-Thor, God of Thunder</div>
+            </div>
         </div>
-
-
-
-</div> 
+        <div class="sectioncontainer-4"> <!-- Flex Container for the fourth section -->
+            <div class="contentcontainer-4"> <!-- Flex Container for content-->
+                <div class="text-button-box"> <!-- Flex Container for text and button-->
+                    <div class="calltoaction"> <!-- Horizontal Flex Container for title and subtext-->
+                        <div class="calltoaction title"> Call to action! It's time!</div>
+                        <div class="calltoaction text"> Sign up for our product by clicking that button right over there!</div>
+                    </div> 
+                   
+                    <div class="signup-button-box">
+                        <div class="signup-button">
+                            <div class="signup-button-text">Sign Up</div>
+                        </div>  
+                    </div>
+                </div>     
+            </div>
+        </div> 
+        <div class="sectioncontainer-5"> <!-- Flex Container for the footer section -->
+            <div class="footer-text">Copyright © The Odin Project 2025</div>
+        </div> 
+    </div> 
 </body>
 </html>

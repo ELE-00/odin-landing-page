@@ -5,10 +5,11 @@ body {
 
 }
 
-.mastercontainer-1{
-    min-height: 500px;
+
+
+.mastercontainer{
+    height: 100%;
     display: flex;
-    background-color: #1F2937;
     flex-direction: column;
     align-items: center;
     margin: 0;
@@ -16,6 +17,23 @@ body {
 
     
 }
+
+/*SECTION 1 */
+
+.sectioncontainer-1{
+    /* border: 2px solid red; */
+    min-height: 500px;
+    display: flex;
+    width: 100%;
+    background-color: #1F2937;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+
 
 .headercontainer{
     min-height: 150px;
@@ -98,3 +116,216 @@ body {
     border-radius: 15px;
 
 }
+
+
+
+/*SECTION 2 */
+
+.sectioncontainer-2{
+    /* border: 2px solid red; */
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.headercontainer-2{
+    min-height: 150px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 74%;
+    font-family: 'Roboto Light', sans-serif;
+    
+}
+.contentcontainer-2{
+    /* border: 2px solid red;    */
+    min-height: 300px;
+    display: flex;
+    width: 74%;
+    font-family: 'Roboto Light', sans-serif;
+    gap: 60px;
+    justify-content: center;
+    
+}
+
+.infoheadertext{
+    font-size: 38px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+
+.image-text-container{
+    /* border: 2px solid red;   */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 160px;
+}
+
+
+.gridbox{
+    height: 160px;
+    width: 160px;
+    border: 4px solid #3880F6;  
+    border-radius: 15px;
+}
+
+.gridtext{
+    font-size: 18px;
+    color: #808080;
+    text-align: center;
+
+}
+
+
+
+/*SECTION 3 */
+.sectioncontainer-3{
+    min-height: 450px;
+    width: 100%;
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+
+}
+
+.contentcontainer-3{
+    /* border: 2px solid red;    */
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    font-family: 'Roboto Thin Italic', sans-serif;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.quotetext{
+    font-size: 34px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+
+}
+
+.quoteauthor{
+    font-size: 24px;
+    color: #000000;
+    font-weight: 900;
+}
+
+
+
+
+
+/*SECTION 4 */
+.sectioncontainer-4{
+    /* border: 2px solid red; */
+    min-height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.contentcontainer-4{
+    /* border: 2px solid red; */
+    background-color: #3880F6;
+    display: flex;
+    height: 150px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Roboto Thin Italic', sans-serif;
+}
+
+.text-button-box{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.calltoaction{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.calltoaction.title{
+    /* border: 2px solid red; */
+    font-size: 24px;
+    color: white;
+    font-weight: 900;
+}
+
+.calltoaction.text{
+    /* border: 2px solid red; */
+    font-size: 18px;
+    color: #e5e7ebc6;
+}
+
+.signup-button-box{
+    /* border: 2px solid red; */
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid white;
+    min-width: 120px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.signup-button-text{
+    font-size: 18px;
+    color: white;
+    font-weight: 900;
+}
+
+
+/*Footer */
+
+.sectioncontainer-5{
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-text{
+    font-family: 'Roboto Thin Italic', sans-serif;
+    font-size: 18px;
+    color: #e5e7ebc6;
+}
+
+
